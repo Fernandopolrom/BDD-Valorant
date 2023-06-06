@@ -219,7 +219,7 @@ begin
         end if;
         
         -- concatenar el resultado en una cadena
-        set result = concat(result, player_name_score, ' | ');
+        set result = concat(result, player_name_score, ' \n ');
     end loop;
     
     close cur;
